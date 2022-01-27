@@ -347,9 +347,15 @@ a{
 	}
 }
 
+
+
 @media screen and (max-width: 600px){
 	#mobile-menu-container{
 		width: 75%;
+	}
+
+	#navbar{
+		height: 10vh;
 	}
 }
 
