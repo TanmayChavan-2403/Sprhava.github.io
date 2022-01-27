@@ -282,6 +282,10 @@ a{
 	height: fit-content;
 }
 
+.footer-section:nth-child(4) .footer-section-navlinks{
+	display: flex;
+}
+
 .footer-section-navlinks li{
 	margin: 10px;
 	list-style: none;
