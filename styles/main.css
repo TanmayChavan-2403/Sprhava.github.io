@@ -272,13 +272,12 @@ a{
 .footer-section-navlinks{
 	width: 100%;
 	height: 75%;
-	display: flex;
-	flex-wrap: wrap;
 	padding: 15px 0px;
 }
 
 .footer-section-navlinks p{
 	width: 100%;
+	margin: 10px 0px;
 	list-style: none;
 	height: fit-content;
 }
