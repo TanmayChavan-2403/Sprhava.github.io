@@ -1,3 +1,5 @@
+// Toggle menu subscription
+
 let menuButton = document.getElementById('hamburger-menu-icon');
 let menuBar = document.getElementById('mobile-menu-container');
 let hamMenu = document.getElementById('hamburger-menu');
@@ -14,3 +16,17 @@ function toggleMenuBar(){
 		hamMenu.style.transform = 'scale(1)';
 	}
 }
+
+
+
+// Navbar subscription
+
+window.addEventListener('scroll', e => {
+	let navbar = document.getElementById('navbar');
+	let position =window.pageYOffset;
+	if (position > 20){
+		navbar.style.backgroundColor='#141414';
+	} else {
+		navbar.style.backgroundColor = 'transparent';
+	}
+})
