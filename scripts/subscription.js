@@ -23,10 +23,18 @@ function toggleMenuBar(){
 
 window.addEventListener('scroll', e => {
 	let navbar = document.getElementById('navbar');
+	let navlinks = document.querySelectorAll('.nav-link-href');
 	let position =window.pageYOffset;
 	if (position > 20){
-		navbar.style.backgroundColor='#141414';
+		navbar.style.backgroundColor='white';
+		navlinks.forEach(navlink => {
+			navlink.style.color = 'black';
+		})
 	} else {
 		navbar.style.backgroundColor = 'transparent';
+		navlinks.forEach(navlink => {
+			navlink.style.color = 'white';
+		})
 	}
 })
+
