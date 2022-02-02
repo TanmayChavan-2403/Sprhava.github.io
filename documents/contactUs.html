@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../styles/main.css">
+	<link rel="stylesheet" type="text/css" href="../styles/contactUs.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Josefin+Slab:wght@100;200;300;400;500;600;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	<title> Sprhava - Contact US</title>
+</head>
+<body>
+
+	<section id="mobile-menu-container" data-state='close'>
+		<div id="close-button">
+			<i class="fas fa-times" onclick="toggleMenuBar()"></i>
+		</div>
+		<div id="mobile-nav-link-container">
+			<li class="mobile-nav-link">
+				<a href="../index.html">Home</a>
+			</li>
+			<li class="mobile-nav-link">
+				<a href="#">About</a>
+			</li>
+			<li class="mobile-nav-link">
+				<a href="#">Services</a>
+			</li>
+			<li class="mobile-nav-link">
+				<a href="#">Contact</a>
+			</li>
+			<li class="mobile-nav-link">
+				<a href="#">Careers</a>
+			</li>
+		</div>
+	</section>
+
+
+	<section id='navbar'>
+		<div id="logo">
+			<a href="../index.html">
+				<img src="../images/logo.png">
+			</a>
+		</div>		
+		<div id="nav-link-container">
+			<li class="nav-link">
+				<a href="../index.html" class="nav-link-href">Home</a>
+			</li>
+			<li class="nav-link">
+				<a href="#" class="nav-link-href">About</a>
+			</li>
+			<li class="nav-link">
+				<a href="#" class="nav-link-href">Services</a>
+			</li>
+			<li class="nav-link">
+				<a href="#" class="nav-link-href">Contact</a>
+			</li>
+			<li class="nav-link">
+				<a href="#" class="nav-link-href">Careers</a>
+			</li>
+		</div>
+		<div id="hamburger-menu">
+			<i class="fas fa-bars" id='hamburger-menu-icon' onclick="toggleMenuBar()"></i>
+		</div>
+	</section>
+
+	<section id="contactus-banner">
+		<img src="../images/contactUsBannerImg.jpg">
+		<h1>Let's Connect with <span>US</span></h1>
+	</section>
+
+	<section id="getInTouch-Germany-container">
+		<div id="GGC-left-section">
+			<div id="GGC-left-section-header">
+				<h1>Get in touch</h1>
+				<p>If you have any questions or comments, or would just like to say hello, please feel free to contact our friendly team</p>
+			</div>
+			<form id="GGC-left-section-inputSection">
+				<input required type="text" name="name" placeholder="Name">
+				<input required type="text" name="email" placeholder="Email">
+				<input required type="text" name="subject" placeholder="Subject">
+				<textarea required name="message" placeholder="Message"></textarea>
+				<button type="submit"> Send Message </button>
+			</form>
+		</div>
+		<div id="GGC-right-section">
+			<div class="address">
+				<h1>Office Address</h1>
+				<p>Raintaler Str, Munich,Germany </p>
+			</div>
+			<div class="address">
+				<h1>Phone Number</h1>
+				<p>Landline: +49 89 37012778 </p>
+			</div>
+			<div class="address">
+				<h1>Contact Mail</h1>
+				<p> info@sprhava.com </p>
+			</div>
+			<div class="address">
+				<h1>Website</h1>
+				<p>www.sprhava.com</p>
+			</div>
+		</div>
+	</section>
+
+
+
+											<!-- Footer section -->
+	<section id="footer">
+		<div id="arrow-section">
+			<i class="fas fa-chevron-up" style="cursor: pointer;" onclick="navigateToTop()"></i>
+		</div>
+		<div id="content">
+			<div class="footer-section">
+				<div class="footer-section-header">
+					<h1>COMPANY</h1>
+				</div>
+				<div class="footer-section-navlinks">
+					<p><a href="#">About</a></p>
+					<p><a href="#">Why Choose Us</a></p>
+					<p><a href="#">Blog</a></p>
+				</div>
+			</div>
+			<div class="footer-section">
+				<div class="footer-section-header">
+					<h1>SUBSIDIARIES</h1>
+				</div>
+				<div class="footer-section-navlinks">
+					<p><a href="#">sprhava GmbH</a></p>
+					<p><a href="#">sprhava India Ltd.</a></p>
+				</div>
+			</div>
+			<div class="footer-section">
+				<div class="footer-section-header">
+					<h1>SUPPORT</h1>
+				</div>
+				<div class="footer-section-navlinks">
+					<p><a href="#">Privacy Policy</a></p>
+					<p><a href="#">Cookie Policy</a></p>
+					<p><a href="#">Privacy Statement</a></p>
+				</div>
+			</div>
+			<div class="footer-section">
+				<div class="footer-section-header">
+					<h1>CONNECT WITH US</h1>
+				</div>
+				<div class="footer-section-navlinks">
+					<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+					<li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+					<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+				</div>
+			</div>
+
+		
+		</div>
+		<div id="copyright">
+			<p>©Copyright at 2021 sphrava</p>
+		</div>
+	</section>
+
+
+
+	<script type="text/javascript" src="../scripts/subscription.js"></script>
+	<script type="text/javascript">
+		function navigateToTop(){
+			window.scrollTo({
+				top: 0,
+				left: 0,
+				behavior: 'smooth'
+			})
+		}
+	</script>
+
+</body>
+</html>

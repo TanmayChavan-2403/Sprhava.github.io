@@ -12,7 +12,7 @@ setInterval(() => {
 		sliderState.currSlider = 1;
 		sliderState.direction = 'forward';
 	}
-
+	
 	let position = document.getElementById(`s${sliderState.currSlider}`).offsetLeft;
 
 	if (sliderState.direction == 'forward'){
@@ -23,6 +23,4 @@ setInterval(() => {
 		slider.style.left = `-${position}px`;
 		sliderState.currSlider -= 1
 	}
-
 }, 5000)
-
