@@ -90,6 +90,7 @@ a{
 }
 
 #hamburger-menu-icon{
+	color: white;
 	cursor: pointer;
 }
 
@@ -455,6 +456,7 @@ a{
 	flex-wrap: wrap;
 	height: fit-content;
 	justify-content: center;
+	background-color: white;
 }
 
 
