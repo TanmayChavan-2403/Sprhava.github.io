@@ -17,6 +17,21 @@ a{
 }
 
 
+#wrapper{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#content-wrapper{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1500px;
+	justify-content: center;
+}
+
+
 /*Navbar styling starts*/
 
 #navbar{
@@ -26,6 +41,7 @@ a{
 	display: flex;
 	position: fixed;
 	transition: .6s;
+	max-height: 100px;
 	background-color: transparent;
 	justify-content: space-between;
 }
@@ -456,7 +472,6 @@ a{
 	flex-wrap: wrap;
 	height: fit-content;
 	justify-content: center;
-	background-color: white;
 }
 
 
@@ -467,6 +482,7 @@ a{
 	overflow: hidden;
 	min-height: 282px;
 	border-radius: 10px;
+	background-color: white;
 	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 

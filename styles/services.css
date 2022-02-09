@@ -1,0 +1,112 @@
+/*
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Josefin Slab', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;
+*/
+
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+#services-wrapper{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+#services-content-wrapper{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 1500px;
+	justify-content: center;
+}
+
+#services-banner{
+	width: 100%;
+	height: 85vh;
+	background-color: black;
+}
+
+#services-banner img{
+	width: 100%;
+	height: 100%;
+	opacity: 40%;
+	object-fit: cover;
+}
+
+#services-banner h1{
+	top: 25%;
+	left: 50%;
+	color: white;
+	text-align: center;
+	position: absolute;
+	transform: translateY(-25%, -50%);
+	font-size: clamp(50px, 7vw, 100px);
+}
+
+#services-banner h1 span{
+	color: #098ce2;
+}
+
+
+#services-card-container{
+	width: 100%;
+	row-gap: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	margin: 100px 0px;
+	justify-content: space-evenly;
+}
+
+
+.card{
+	width: 30%;
+	padding: 15px;
+	min-width: 384px;
+	position: relative;
+	display: inline-block;
+}
+
+.card-header{
+	width: 100%;
+	height: 50px;
+	display: flex;
+}
+
+.card-header-icon{
+	width: 15%;
+	height: 100%;
+	display: flex;
+	color: #098ce2;
+	font-size: 30px;
+	align-items: center;
+	justify-content: center;
+}
+
+.card-header-title{
+	width: 85%;
+	height: 100%;
+	display: flex;
+	color: #292929;
+	font-size: 1.2em;
+	text-align: left;
+	padding: 0px 10px;
+	align-items: center;
+}
+
+.card-footer{
+	width: 85%;
+	padding: 10px;
+	float: right;
+	color: #404040;
+	font-weight: 300;
+}
+
+.card-footer p{
+	font-family: 'Poppins', sans-serif;
+}

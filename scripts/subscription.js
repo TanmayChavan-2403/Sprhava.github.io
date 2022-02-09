@@ -28,12 +28,14 @@ window.addEventListener('scroll', e => {
 	if (position > 20){
 		navbar.style.backgroundColor='white';
 		menuButton.style.color = 'black';
+		navbar.style.height = '70px';
 		navlinks.forEach(navlink => {
 			navlink.style.color = 'black';
 		})
 	} else {
 		navbar.style.backgroundColor = 'transparent';
 		menuButton.style.color = 'white';
+		navbar.style.height = '15vh';
 		navlinks.forEach(navlink => {
 			navlink.style.color = 'white';
 		})
@@ -46,15 +48,12 @@ window.addEventListener('scroll', e => {
 
 
 // Contact-us page toggle button subscription
-let fields = document.querySelectorAll('.address');
-let googleMap = document.getElementById('googlemap');
 
-let address = fields[0].children[1];
-// let phoneNumber = fields[1].children[1];
-// let contactMail = fields[2].children[1]
-// let website = fields[3].children[1]
 
 function toogleAddress(country, button){
+	let fields = document.querySelectorAll('.address');
+	let googleMap = document.getElementById('googlemap');
+	let address = fields[0].children[1];
 
 	let ID= button.id == 'ITB' ? 'GTB' : 'ITB';
 	let anotherButton = document.getElementById(ID);
