@@ -82,3 +82,22 @@ function toogleAddress(country, button){
 	anotherButton.style.backgroundColor = '#efefef';
 	anotherButton.style.color = 'black';
 }
+
+
+
+
+
+
+
+
+
+// Privacy policy section 
+
+function togglePrivacyPolicyContainer(from){
+	let container = document.getElementById('privacy-policy-wrapper');
+	if (from === 'ppc-close-button'){
+		container.style.transform = 'scale(0)';
+	} else {
+		container.style.transform = 'scale(1)';
+	}
+}

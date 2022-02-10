@@ -582,7 +582,12 @@ a{
 
 .footer-section a{
 	color: black;
+	cursor: pointer;
 	text-decoration: none;
+}
+
+.footer-section a:hover{
+	color: #098ce2;
 }
 
 .footer-section-header{

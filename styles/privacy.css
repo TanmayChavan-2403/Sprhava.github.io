@@ -1,0 +1,127 @@
+*{
+	box-sizing: border-box;
+}
+
+
+#privacy-policy-wrapper{
+	width: 100%;
+	bottom: 0px;
+	z-index: 15;
+	display: flex;
+	height: 100vh;
+	flex-wrap: wrap;
+	position: fixed;
+	transition: .4s;
+	align-items: center;
+	transform: scale(0);
+	justify-content: center;
+	background-color: white;
+	align-content: flex-start;
+}
+
+#privacy-policy{
+	width: 85%;
+	height: 85vh;
+	overflow-y: scroll;
+	scroll
+	background-color: white;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#privacy-policy::-webkit-scrollbar-thumb{
+	background: #e63c3c;
+}
+
+
+
+#privacy-policy-close-button{
+	width: 100%;
+	display: flex;
+	padding: 15px;
+	justify-content: flex-end;
+}
+
+
+#privacy-policy-close-button div{
+	width: 65px;
+	height: 65px;
+	display: flex;
+	cursor: pointer;
+	max-width: 90px;
+	transition: .4s;
+	max-height: 90px;
+	align-items: center;
+	justify-content: center;
+	background-color: #eb4034;
+}
+
+#privacy-policy-close-button div:hover{
+	background-color: #ff2617;
+	transform: scale(1.02);
+}
+
+#privacy-policy-close-button div img{
+	width: 80%;
+	height: 80%;
+	object-fit: contain;
+}
+
+
+#privacy-policy-content{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	height: fit-content;
+}
+
+
+#privacy-policy-content p{
+	width: 75%;
+	padding: 15px;
+	margin: 25px 0px;
+	border: 3px solid #e63c3c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#privacy-policy-banner{
+	width: 100%;
+	height: 60vh;
+	position: relative;
+	background-color: black;
+}
+
+#privacy-policy-banner img{
+	width: 100%;
+	height: 100%;
+	opacity: 30%;
+	object-fit: cover;
+}
+
+#privacy-policy-banner h1{
+	top: 50%;
+	left: 50%;
+	color: white;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	font-size: clamp(50px, 7vw, 100px);
+}
+
+#privacy-policy-banner h1 span{
+	color: #e63c3c;
+}
