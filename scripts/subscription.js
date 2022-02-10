@@ -77,8 +77,8 @@ function toogleAddress(country, button){
 	}
 
 	button.style.backgroundColor = 'black';
-	button.style.color = 'grey';
+	button.style.color = '#efefef';
 
-	anotherButton.style.backgroundColor = 'grey';
+	anotherButton.style.backgroundColor = '#efefef';
 	anotherButton.style.color = 'black';
 }
