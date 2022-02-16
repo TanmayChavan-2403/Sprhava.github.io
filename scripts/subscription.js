@@ -101,3 +101,35 @@ function togglePrivacyPolicyContainer(from){
 		container.style.transform = 'scale(1)';
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+// Intersection observer in services cards.
+let services_container = document.getElementById('services-card-container');
+
+let options = {
+	root: null,
+	rootMargin: '0px',
+	threshold: 0.6,
+};
+
+let observer = new IntersectionObserver((entries, observer) => {
+	entries.forEach(entry => {
+		if (entry.isIntersecting){
+			services_container.style.visibility = 'visible';
+			services_container.style.transform = 'translateY(0%)';		
+		}
+	})
+
+}, options)
+
+observer.observe(services_container);

@@ -89,8 +89,8 @@ input:hover{
 }
 
 input[name="name"], input[name="email"]{
-	width: min(21vw, 100%);
-	margin: 15px;
+	width: min(47%, 100%);
+	margin: 15px 0px;
 }
 
 input[name="subject"]{
@@ -99,7 +99,7 @@ input[name="subject"]{
 
 textarea[name="message"]{
 	width: 95%;
-	margin: 15px;
+	margin: 15px 0px;
 	height: 30vh;
 	outline: none;
 	padding: 15px;

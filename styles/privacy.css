@@ -52,11 +52,11 @@
 	max-height: 90px;
 	align-items: center;
 	justify-content: center;
-	background-color: #eb4034;
+	background-color: #098ce2;
 }
 
 #privacy-policy-close-button div:hover{
-	background-color: #ff2617;
+	background-color: #098ce2;
 	transform: scale(1.02);
 }
 
@@ -71,8 +71,8 @@
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: center;
 	height: fit-content;
+	justify-content: center;
 }
 
 
@@ -80,7 +80,6 @@
 	width: 75%;
 	padding: 15px;
 	margin: 25px 0px;
-	border: 3px solid #e63c3c;
 }
 
 
@@ -123,5 +122,5 @@
 }
 
 #privacy-policy-banner h1 span{
-	color: #e63c3c;
+	color: #098ce2;
 }
